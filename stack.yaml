@@ -1,0 +1,19 @@
+flags: {}
+packages:
+- '.'
+- location:
+    git: git@github.com:brendanhay/amazonka
+    commit: e53b4c1a38f71f067cdc070ba990e3aa7429c181
+  subdirs:
+  - amazonka
+  - core
+  - amazonka-dynamodb
+extra-deps:
+- wiring-0.3.0
+- spock-0.7.10.0
+- digestive-functors-0.8.0.0
+- digestive-functors-blaze-0.6.0.6
+- time-1.5.0.1
+- aeson-0.9.0.1
+- attoparsec-0.13.0.0
+resolver: nightly-2015-07-30
